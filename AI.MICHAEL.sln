@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0E13A194-CEF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.MICHAEL.API", "src\AI.MICHAEL.API\AI.MICHAEL.API.csproj", "{269D5249-2ABF-467D-80D4-328267CA7A8D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{698A9612-EEEA-47FF-91C6-635086976E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.MICHAEL.Core", "src\AI.MICHAEL.Core\AI.MICHAEL.Core.csproj", "{04E897AF-4562-48B7-AC6A-264E8BD855ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{269D5249-2ABF-467D-80D4-328267CA7A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{269D5249-2ABF-467D-80D4-328267CA7A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{269D5249-2ABF-467D-80D4-328267CA7A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E897AF-4562-48B7-AC6A-264E8BD855ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E897AF-4562-48B7-AC6A-264E8BD855ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E897AF-4562-48B7-AC6A-264E8BD855ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E897AF-4562-48B7-AC6A-264E8BD855ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{269D5249-2ABF-467D-80D4-328267CA7A8D} = {0E13A194-CEF0-4749-91A1-4A6B93F75ADD}
+		{04E897AF-4562-48B7-AC6A-264E8BD855ED} = {698A9612-EEEA-47FF-91C6-635086976E34}
 	EndGlobalSection
 EndGlobal
